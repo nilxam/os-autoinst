@@ -75,6 +75,8 @@ sub search_($;$$) {
             y          => $ymatch,
             w          => $area->{'width'},
             h          => $area->{'height'},
+            margin     => $area->{'margin'},
+            match      => $area->{'match'},
             result     => 'ok',
         };
 
